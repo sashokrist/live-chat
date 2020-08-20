@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85f7f4e8-7d6e-4919-9d29-ec7ec0712935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationMessages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationReplay.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Conversations/ConversationUsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_20_115344_create_messages_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/conversations/conversation-messages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/conversations/conversation-replay.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/conversations/conversation-users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Conversation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Conversation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_19_105152_create_conversation_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_19_105152_create_conversation_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/conversations/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/conversations/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../humanizam" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -155,7 +166,7 @@
       <workItem from="1597662525919" duration="3883000" />
       <workItem from="1597826657164" duration="43000" />
       <workItem from="1597833790094" duration="6180000" />
-      <workItem from="1597904512063" duration="700000" />
+      <workItem from="1597904512063" duration="7721000" />
     </task>
     <task id="LOCAL-00001" summary="conversation show">
       <created>1597904581970</created>
@@ -164,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597904581970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="conversation show 2">
+      <created>1597905635336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597905635336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,17 +192,22 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="conversation show" />
-    <option name="LAST_COMMIT_MESSAGE" value="conversation show" />
+    <MESSAGE value="conversation show 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="conversation show 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="425" y="72" key="CommitChangelistDialog2" timestamp="1597904581400">
+    <state x="665" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597925418554">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="425" y="72" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597904581400" />
-    <state x="671" y="341" key="FileChooserDialogImpl" timestamp="1597826697340">
+    <state x="665" y="319" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597925418554" />
+    <state x="425" y="72" key="CommitChangelistDialog2" timestamp="1597905634962">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="671" y="341" key="FileChooserDialogImpl/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597826697340" />
+    <state x="425" y="72" key="CommitChangelistDialog2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597905634962" />
+    <state x="671" y="341" key="FileChooserDialogImpl" timestamp="1597905492577">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="671" y="341" key="FileChooserDialogImpl/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597905492577" />
     <state x="613" y="296" key="NewPhpClassDialog" timestamp="1597837110314">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -193,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="709" y="505" key="NewPhpFileDialog/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597839370117" />
-    <state x="527" y="293" key="Vcs.Push.Dialog.v2" timestamp="1597904584900">
+    <state x="527" y="293" key="Vcs.Push.Dialog.v2" timestamp="1597905637189">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state x="527" y="293" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597904584900" />
+    <state x="527" y="293" key="Vcs.Push.Dialog.v2/1920.127.1536.840/-1920.127.1920.1050/0.0.1920.1170@0.0.1920.1170" timestamp="1597905637189" />
     <state x="547" y="276" key="run.anything.popup" timestamp="1597666320393">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
